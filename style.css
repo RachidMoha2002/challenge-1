@@ -5,7 +5,13 @@
 }
 body {
   font-family: "Outfit", sans-serif;
-  font-size: 15px;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  flex-direction: column;
 
   background-color: hsl(212, 45%, 89%);
 }
@@ -27,13 +33,13 @@ body {
   text-align: center;
 }
 .text-container h1 {
-  font-size: 27px;
+  font-size: 1.75rem;
   font-weight: 700;
   padding-top: 13px;
   color: hsl(218, 44%, 22%);
 }
 .text-container p {
   padding: 20px 0;
-  font-size: 18px;
+  font-size: 1.125rem;
   color: hsl(220, 15%, 55%);
 }
